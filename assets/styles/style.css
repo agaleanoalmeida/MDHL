@@ -17,7 +17,7 @@ nav{
 
 header>nav>a{
     position: relative;
-    top:-2%; left: 75%;
+    top:-2%; left: 45%;
     color: white;
     margin: 2px;
     text-decoration: none;
@@ -69,8 +69,11 @@ ul{
 }
 
 table{
+    margin-bottom: 5px;
+    margin-top: 5px;
     padding: 5px;
     border-spacing: 35px;
+    box-shadow: 10px 10px 8px 10px rgb(78, 77, 77);
 }
 
 .contact{
@@ -80,3 +83,32 @@ table{
 span{
     margin-left: 55px;
 }
+
+form{
+    margin-bottom: 5px;
+    margin-top: 5px;
+    display: inline-block;
+}
+
+#permission{
+    list-style: upper-roman;
+}
+
+fieldset{
+    margin: 15px;
+}
+
+input{
+    border: 0;
+    border-bottom:solid 1px black;
+ }
+
+ #submitForm{
+    border: 2px;
+    border-style: groove;
+ }
+
+/* iframe{
+    height: 10%;
+    width: 50%;
+} */
